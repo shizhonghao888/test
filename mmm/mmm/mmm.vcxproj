@@ -101,6 +101,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DlgBbbb.h" />
     <ClInclude Include="mmm.h" />
     <ClInclude Include="mmmDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -108,6 +109,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DlgBbbb.cpp" />
     <ClCompile Include="mmm.cpp" />
     <ClCompile Include="mmmDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
