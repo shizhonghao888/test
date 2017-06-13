@@ -12,7 +12,7 @@ public:
 	virtual ~DlgBbbb();
 
 // 对话框数据
-	enum { IDD = IDD_DIALOG1 };
+	enum { IDD = IDD_DIALOG2 };
 
 protected:
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV 支持

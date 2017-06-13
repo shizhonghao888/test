@@ -101,8 +101,11 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="DlgBbbb.h" />
+=======
     <ClInclude Include="DlgAaaa.h" />
+>>>>>>> dev
     <ClInclude Include="mmm.h" />
     <ClInclude Include="mmmDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -110,8 +113,11 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="DlgBbbb.cpp" />
+=======
     <ClCompile Include="DlgAaaa.cpp" />
+>>>>>>> dev
     <ClCompile Include="mmm.cpp" />
     <ClCompile Include="mmmDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
