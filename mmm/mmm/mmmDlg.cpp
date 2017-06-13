@@ -156,6 +156,6 @@ HCURSOR CmmmDlg::OnQueryDragIcon()
 void CmmmDlg::OnBnClickedOk()
 {
 	// TODO:  在此添加控件通知处理程序代码
-	//CDialogEx::OnOK();
+	//CDialogEx::OnOK();;;
 	::AfxMessageBox(_T("aaaaaabbcc_dev"));
 }
