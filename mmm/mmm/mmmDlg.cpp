@@ -63,6 +63,7 @@ BEGIN_MESSAGE_MAP(CmmmDlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDOK, &CmmmDlg::OnBnClickedOk)
+	ON_BN_CLICKED(IDC_MFCBUTTON1, &CmmmDlg::OnBnClickedMfcbutton1)
 END_MESSAGE_MAP()
 
 
@@ -158,4 +159,13 @@ void CmmmDlg::OnBnClickedOk()
 	// TODO:  在此添加控件通知处理程序代码
 	//CDialogEx::OnOK();;;
 	::AfxMessageBox(_T("aaaaaabbcc_dddd"));
+}
+
+#include "DlgAaaa.h"
+
+void CmmmDlg::OnBnClickedMfcbutton1()
+{
+	// TODO:  在此添加控件通知处理程序代码
+	DlgAaaa dlg;
+	dlg.DoModal();
 }
