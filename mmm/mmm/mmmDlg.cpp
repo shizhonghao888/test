@@ -163,6 +163,8 @@ void CmmmDlg::OnBnClickedOk()
 	::AfxMessageBox(_T("aaaaaabbcc_dddd"));
 
 	::AfxMessageBox(_T("change 111"));
+
+	::AfxMessageBox(_T("change mmmm"));
 }
 
 #include "DlgBbbb.h"
