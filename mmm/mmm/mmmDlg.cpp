@@ -170,6 +170,8 @@ void CmmmDlg::OnBnClickedMfcbutton1()
 	// TODO:  在此添加控件通知处理程序代码
 	::AfxMessageBox(_T("fdfd"));
 
+	::AfxMessageBox(_T("change 222"));
+
 	DlgAaaa dlg;
 	dlg.DoModal();
 }
